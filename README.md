@@ -1,70 +1,59 @@
 from pathlib import Path
 
-readme_content = """
+clean_readme = """
 <h1 align="center">Olá! Eu sou o Fabrício Júnior 👨‍💻</h1>
 <p align="center">
-  <i>Desenvolvedor de software apaixonado por transformar ideias em produtos digitais úteis.</i><br>
+  Desenvolvedor de software apaixonado por transformar ideias em produtos digitais úteis.<br>
   <b>Especializado em soluções web, automações inteligentes e interfaces modernas.</b>
 </p>
 
 ---
 
-### 🚀 Sobre mim
+## 🚀 Sobre mim
 
 - 🎓 Estudante e profissional da área de tecnologia e desenvolvimento de sistemas
-- 🧠 Apaixonado por resolver problemas reais com código
-- 🧩 Criador do app <b><a href="https://github.com/Fabricioj-r/juntai-vida-em-harmonia">Juntaí</a></b> — um app de finanças e tarefas colaborativas
-- 🛠️ Foco em <code>React</code>, <code>TypeScript</code>, <code>Python</code> e <code>Firebase</code>
+- 💡 Apaixonado por resolver problemas reais com código
+- 📱 Criador do app <a href="https://github.com/Fabricioj-r/juntai-vida-em-harmonia"><b>Juntaí</b></a> — finanças e tarefas colaborativas
+- 🛠️ Foco em <code>React</code>, <code>TypeScript</code>, <code>Python</code>, <code>Firebase</code> e <code>Vite</code>
 
 ---
 
-### 🧰 Tecnologias e Ferramentas
-<p>
-  <img src="https://img.shields.io/badge/-React-20232A?style=flat&logo=react" />
-  <img src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript" />
-  <img src="https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python" />
-  <img src="https://img.shields.io/badge/-Firebase-FFCA28?style=flat&logo=firebase" />
-  <img src="https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github" />
-  <img src="https://img.shields.io/badge/-Vite-646CFF?style=flat&logo=vite" />
+## 🧰 Tecnologias & Ferramentas
+
+<p align="left">
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python" />
+  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase" />
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github" />
 </p>
 
 ---
 
-### 📌 Repositórios em destaque
+## 📌 Projetos em destaque
 
-<table>
-<tr>
-<td width="50%">
-  <h4><a href="https://github.com/Fabricioj-r/juntai-vida-em-harmonia">📱 Juntaí - Vida em Harmonia</a></h4>
-  <p>App para controle financeiro e tarefas compartilhadas (React + Firebase + Vite)</p>
-</td>
-</tr>
-<tr>
-<td width="50%">
-  <h4><a href="https://github.com/Fabricioj-r/NCM">📊 NCM</a></h4>
-  <p>Automação de consultas fiscais usando Python e API</p>
-</td>
-</tr>
-<tr>
-<td width="50%">
-  <h4><a href="https://github.com/Fabricioj-r/BankEase---Sistema-bancario">🏦 BankEase</a></h4>
-  <p>Sistema bancário educacional com HTML/CSS</p>
-</td>
-</tr>
-</table>
+### 📱 [Juntaí - Vida em Harmonia](https://github.com/Fabricioj-r/juntai-vida-em-harmonia)
+> App para controle financeiro e tarefas compartilhadas — construído com React, Firebase e Vite
+
+### 📊 [NCM](https://github.com/Fabricioj-r/NCM)
+> Automação de consultas fiscais com Python + API
+
+### 🏦 [BankEase](https://github.com/Fabricioj-r/BankEase---Sistema-bancario)
+> Sistema bancário educacional com HTML/CSS
 
 ---
 
-### 📬 Contato
+## 📬 Contato
 
 - [LinkedIn](https://www.linkedin.com/in/fabriciojunior)
-- 📧 Email: fabriciojunior383@gmail.com
+- 📧 fabriciojunior383@gmail.com
 
 ---
 
-<p align="center">✨ Sempre em busca de evolução e inovação através da tecnologia.</p>
+<p align="center"><i>✨ Sempre em busca de evolução e inovação através da tecnologia.</i></p>
 """
 
-readme_path = Path("/mnt/data/README.md")
-readme_path.write_text(readme_content.strip(), encoding="utf-8")
-readme_path.name
+path = Path("/mnt/data/README_PROFISSIONAL.md")
+path.write_text(clean_readme.strip(), encoding="utf-8")
+path.name
