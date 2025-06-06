@@ -1,6 +1,3 @@
-from pathlib import Path
-
-clean_readme = """
 <h1 align="center">Olá! Eu sou o Fabrício Júnior 👨‍💻</h1>
 <p align="center">
   Desenvolvedor de software apaixonado por transformar ideias em produtos digitais úteis.<br>
@@ -52,8 +49,3 @@ clean_readme = """
 ---
 
 <p align="center"><i>✨ Sempre em busca de evolução e inovação através da tecnologia.</i></p>
-"""
-
-path = Path("/mnt/data/README_PROFISSIONAL.md")
-path.write_text(clean_readme.strip(), encoding="utf-8")
-path.name
