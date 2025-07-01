@@ -1,7 +1,7 @@
 <h1 align="center">Olá! Eu sou o Fabrício Júnior 👨‍💻</h1>
 <p align="center">
   Desenvolvedor de software apaixonado por transformar ideias em produtos digitais úteis.<br>
-  <b>Especializado em soluções web, automações inteligentes e interfaces modernas.</b>
+  <b>Sempre buscando aprender mais e contribuir com projetos inovadores.</b>
 </p>
 
 ---
